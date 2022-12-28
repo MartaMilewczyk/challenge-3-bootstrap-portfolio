@@ -6,7 +6,7 @@
 /* hero background image */
 .heroImage {
     height:100vh;
-    background: url('../images/heroImage.jpeg');
+    background: url('../images/heroImage.jpeg') top right;
     background-size: cover;
     opacity: 0.8; 
 }
@@ -44,7 +44,6 @@
 /* about section image styling */
 .imageAbout {
     width: 100%;
-    border-radius: 10px;
 }
 
 /* services section styling */
@@ -72,7 +71,10 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover 
+    {
     color: orange
 }
 .fab {
@@ -81,5 +83,5 @@
 /* footer styling */
 #footer {
     background-color: #808080;
-    text-align: center;
 }
+
