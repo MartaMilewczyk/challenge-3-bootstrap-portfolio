@@ -6,7 +6,7 @@
 /* hero background image */
 .heroImage {
     height:100vh;
-    background: url('../images/heroImage.jpeg') top right;
+    background: url('../images/heroImage.jpg') top right;
     background-size: cover;
     opacity: 0.8; 
 }
@@ -14,9 +14,12 @@
 .heroTitle {
     font-size: 4.5rem;
     font-family: 'Satisfy', serif;
+    color:black
+
 }
 .heroDescription {
     font-size: 2rem;
+    color: black;
 }
 .hero-text {
     text-align: center;
