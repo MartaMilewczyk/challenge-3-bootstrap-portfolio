@@ -7,8 +7,9 @@
 .heroImage {
     height:100vh;
     background: url('../images/heroImage.jpg') top right;
+    height: 100vh;
     background-size: cover;
-    opacity: 0.8; 
+    background-color: no-repeat;
 }
 /* text css above hero image*/
 .heroTitle {
